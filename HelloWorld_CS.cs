@@ -1,13 +1,13 @@
 ﻿using System;
-using System.Security.Cryptography.X509Certificates;
 
-namespace Welcome
+namespace HelloWorld
 {
     class Hello
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            string greetings = "Hello World" ;
+            Console.WriteLine(greetings);
         }
     }
 }
